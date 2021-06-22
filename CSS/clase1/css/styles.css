@@ -1,0 +1,15 @@
+p {
+  color: blue;
+  font-size: 30px;
+}
+
+/* CLASS */
+.page-header {
+  color: pink;
+  font-size: 50px;
+}
+
+/* ID */
+#parrafo {
+  color: red;
+}

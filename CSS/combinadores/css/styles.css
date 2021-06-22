@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Adjacent Sibling
+Aplica el estilo a todos los elemtentos p
+que estén junto a cerca de h2
+h2 + p {
+  color: red;
+} */
+
+/* General Sibling
+Se aplica el estilo a los elementos p que 
+esten por debajo de h2 y pertenezcan al
+mismo nivel
+h2 ~ p {
+  color: red;
+}
+ */
+
+/*  Child
+ Debe estar justo por debajo el elemento p
+ del div para que el estilo se aplique
+div > p {
+  color: red;
+} */
+
+/* Desendientes
+Todo elemento p que este dentro de algún div
+div p {
+  color: red;
+} */

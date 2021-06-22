@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Esta página es una lista de compras de supermercado." />
+        <meta name="robots" content="index,follow">
+
+        <title>Autocomplete And Require</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="#">
+    </head>
+    <body>
+        <main>
+            <form action="">
+                <label for="name">
+                    <span>¿Cuál es tu nombre?</span>
+                    <input type="text" name="name" id="name" autocomplete="name" required>
+                </label>
+                <label for="correo">
+                    <span>¿Cuál es tu correo?</span>
+                    <input type="text" name="correo" id="correo" autocomplete="email" required>
+                </label>
+                <label for="pais">
+                    <span>¿En qué país vives?</span>
+                    <input type="text" name="pais" id="pais" autocomplete="country" required>
+                </label>
+                <label for="cp">
+                    <span>¿Cuál es tu código postal?</span>
+                    <input type="text" name="cp" id="cp" autocomplete="postal-code" required>
+                </label>
+                <input type="submit">
+            </form>
+        </main>
+    </body>
+<html>
