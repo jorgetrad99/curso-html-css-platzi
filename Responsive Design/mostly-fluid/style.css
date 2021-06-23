@@ -11,12 +11,18 @@ html {
 .container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-.container > div {
+.c1,
+.c2,
+.c3,
+.c4,
+.c5 {
   width: 100%;
   min-width: 150px;
   height: 150px;
+  margin: 0.2rem;
 }
 
 .c1 {
@@ -34,3 +40,32 @@ html {
 .c5 {
   background-color: #dfe1e5;
 }
+
+/* @media (min-width: 600px) {
+  .c2,
+  .c3,
+  .c4 {
+    width: 65%;
+  }
+} */
+
+/* @media (min-width: 800px) {
+  .container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .c1 {
+    width: 100%;
+  }
+  .c2,
+  .c3 {
+    width: 55%;
+  }
+  .c4 {
+    width: 70%;
+  }
+  .c5 {
+    width: 100%;
+  }
+} */
