@@ -23,7 +23,7 @@ header {
   box-shadow: 0px 7px 15px #591808;
 }
 
-.contenedor-header {
+.container-header {
   display: block;
   display: flex;
   min-width: 53rem;
@@ -75,9 +75,13 @@ nav {
   height: 100vh;
 } */
 
-.contenido {
+.container-main {
   background-color: white;
   height: 95vh;
+}
+
+.container-main > .cuadro {
+  
 }
 
 /* #464546 */
